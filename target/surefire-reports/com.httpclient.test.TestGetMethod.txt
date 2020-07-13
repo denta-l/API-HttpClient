@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.httpclient.test.TestGetMethod
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.473 sec <<< FAILURE!
+getPingAlive(com.httpclient.test.TestGetMethod)  Time elapsed: 0.264 sec  <<< FAILURE!
+java.lang.AssertionError: expected [500] but found [200]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.httpclient.test.TestGetMethod.getPingAlive(TestGetMethod.java:16)
+
